@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import FilmList from '../components/FilmList';
 
 
 
@@ -28,14 +29,17 @@ const FilmConsole = () =>{
             id: 5,
             name: "Captain Marvel",
             url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
-          }
-    ])
+          }]
+    )
 
     return (
 
         <>
         <h2>What up, here's some films</h2>
+        <FilmList films= {films}/>
         </>
     
     )
 }
+
+export default FilmConsole;
