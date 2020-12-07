@@ -3,7 +3,7 @@ import FilmConsole from './containers/filmConsole';
 
 function App() {
   return (
-    <div classname = "App">
+    <div class='App'>
       <h1>
         Go see some films
       </h1>
